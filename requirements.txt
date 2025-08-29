@@ -1,0 +1,8 @@
+colorama
+docker
+google-generativeai
+python-dotenv
+stack-data
+stdlib-list
+watchdog
+Flask
