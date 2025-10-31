@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ai-code-repair-agent"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Darshan S", email="darshansivakumar860@gmail.com" },
 ]
@@ -20,7 +20,7 @@ classifiers = [
 dependencies = [
     "colorama",
     "docker",
-    "google-generativeai",
+    "google-generativeai>=0.5.0",
     "python-dotenv",
     "stack-data",
     "stdlib-list",
