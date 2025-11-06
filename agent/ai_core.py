@@ -26,7 +26,7 @@ def generate_fix(error_details: Dict[str, any], code_context: str) -> Optional[s
             {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
         ]
         
-        model = genai.GenerativeModel('gemini-1.5-pro', safety_settings=safety_settings)
+        model = genai.GenerativeModel('gemini-2.5-pro', safety_settings=safety_settings)
 
     except Exception as e:
         logging.error(f"Failed to configure or initialize the Gemini API model: {e}")
